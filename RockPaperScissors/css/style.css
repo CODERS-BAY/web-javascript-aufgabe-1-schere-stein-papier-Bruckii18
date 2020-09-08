@@ -1,0 +1,25 @@
+
+body {
+    max-width: 90%;
+    background-color: rgb(173, 173, 173);
+    font-family: 'Grandstander', cursive;
+}
+h1 {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+input[type=image] {
+    margin: 1rem;
+    border: 5px solid;
+    border-radius: 1rem;
+}
+button {
+    margin: auto;
+}
+p {
+    text-align: center;
+}
