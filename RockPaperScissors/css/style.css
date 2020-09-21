@@ -16,6 +16,10 @@ input[type=image] {
     margin: 1rem;
     border: 5px solid;
     border-radius: 1rem;
+    max-height: 300px;
+}
+input[type=image]:hover {
+    border-color: white;
 }
 button {
     margin: auto;
