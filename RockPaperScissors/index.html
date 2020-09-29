@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+         <h1>Welcome to Rock Paper Scissors</h1>
+</header>
+
+<main>
+    <article>
+        <p id=wincount></p> 
+        <p id=round>Round: 1</p>
+    </article>
+
+    <article class="flex-container">
+        <input type="image" src="img/rock.png" alt="rock" onclick="selectRock()"></input>
+        <input type="image" src="img/paper.png" alt="paper" onclick="selectPaper()"></input>
+        <input type="image" src="img/scissors.png" alt="scissors" onclick="selectScissors()"></input>
+    </article>
+
+    <article>
+        <p id="info"></p> </br>
+        <section class="flex-container">
+            <div class="flex-item">
+                <p>Computerscore: </p>
+                <p id="computercount">0</p>
+            </div>
+            <div class="flex-item">
+                <p>Your score: </p>
+                <p id="playercount">0</p>
+        </div>
+        </section>
+        <p id="result"></p>
+    </article>
+
+    <article>
+        <p>Press "Reset Score" to restart the game.</p>
+        <div class="flex-container">
+            <button type="button" onclick="reset()">Reset Score</button>
+        </div>
+    </article>
+
+    </main>
+
+</body>
+<script src="javascript/script.js"></script>
+
+</html>
